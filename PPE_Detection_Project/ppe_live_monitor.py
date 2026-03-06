@@ -9,8 +9,8 @@ from ultralytics import YOLO
 # ========================
 # Telegram Configuration
 # ========================
-TOKEN = "8650647292:AAFr-Vhd_LSOE_I4t9jGb0dEDggmxyWEqIg"
-CHAT_ID = "1073444239"
+TOKEN = "xxxxxxxxxx"
+CHAT_ID = "xxxx"
 
 def send_telegram_report(pdf_path):
     url = f"https://api.telegram.org/bot{TOKEN}/sendDocument"
@@ -155,4 +155,5 @@ while True:
         break
 
 cap.release()
+
 cv2.destroyAllWindows()
