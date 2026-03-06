@@ -23,16 +23,18 @@ If a safety violation is detected, the system can:
 - Fast detection using **YOLOv8**
 
 ---
-
 ## Project Structure
+
+```
 PPE-Detection-System
 │
-├── train_ppe_model.py # Train the YOLOv8 model
-├── ppe_report_generator.py # Detect PPE and generate PDF report
-├── ppe_live_monitor.py # Camera detection + Telegram alert
+├── train_ppe_model.py        # Train the YOLOv8 model
+├── ppe_report_generator.py   # Detect PPE and generate PDF report
+├── ppe_live_monitor.py       # Camera detection + Telegram alert
 │
-├── PPE_Safety_Report_1/ # Generated PDF reports
-│── PPE_Safety_Report_2/ # Generated PDF reports
+├── PPE_Safety_Report_1/      # Generated PDF reports
+├── PPE_Safety_Report_2/      # Generated PDF reports
+```
 
 ---
 
